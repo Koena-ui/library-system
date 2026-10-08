@@ -8,12 +8,12 @@ import "./styles.css";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <BrowserRouter>
+    <HashRouter>
       <LibraryProvider>
         <AuthProvider>
           <App />
         </AuthProvider>
       </LibraryProvider>
-    </BrowserRouter>
+    </HashRouter>
   </StrictMode>
 );
